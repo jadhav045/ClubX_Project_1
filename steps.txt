@@ -1,0 +1,5 @@
+npm init  
+add getignore to main folder
+client server
+client --> react setup 
+server --> express setup & index.js

@@ -1,0 +1,19 @@
+{
+  "name": "phase1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && npm i && npm run dev",
+    "server": "cd server && npm i && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.0.1",
+    "mongodb": "^6.9.0"
+  }
+}
